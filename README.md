@@ -1,8 +1,7 @@
 # DI/OT template
 DI/OT & EEM template
 
-Please follow the checklist!
-[checklist](https://github.com/sinara-hw/DIOT-Template/issues/1)
+Please follow the [checklist](https://github.com/sinara-hw/DIOT-Template/issues/1) !
 
 
 Add your circuit to this block
