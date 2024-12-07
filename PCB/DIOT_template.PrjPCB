@@ -191,7 +191,7 @@ UniqueId=A2FB463C-E379-4070-9A11-B2A9E4752451
 Description=EEM
 AllowFabrication=0
 ParameterCount=0
-VariationCount=62
+VariationCount=56
 Variation1=Designator=R156|UniqueId=\HFXIRERH\HJFKCOUH|Kind=1|AlternatePart==Value
 ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=R156
@@ -242,18 +242,12 @@ Variation43=Designator=R136|UniqueId=\RTXBABPE\FDWNKILN|Kind=1|AlternatePart=
 Variation44=Designator=R137|UniqueId=\RTXBABPE\IKHZUHOD|Kind=1|AlternatePart=
 Variation45=Designator=R139|UniqueId=\RTXBABPE\LVDYHNVL|Kind=1|AlternatePart=
 Variation46=Designator=R140|UniqueId=\RTXBABPE\XRKNLBVE|Kind=1|AlternatePart=
-Variation47=Designator=R127|UniqueId=\RTXBABPE\LWKOEMVT|Kind=1|AlternatePart=
-Variation48=Designator=R128|UniqueId=\RTXBABPE\OGIJIKPG|Kind=1|AlternatePart=
-Variation49=Designator=R141|UniqueId=\RTXBABPE\KCNKNBIE|Kind=1|AlternatePart=
-Variation50=Designator=R142|UniqueId=\RTXBABPE\ASOQJQNE|Kind=1|AlternatePart=
-Variation51=Designator=J10|UniqueId=\TAKSADSN\ICIHXVKV|Kind=1|AlternatePart=
-Variation52=Designator=R257|UniqueId=\HFXIRERH\TZTVHGRT|Kind=1|AlternatePart=
-Variation53=Designator=R260|UniqueId=\HFXIRERH\AXYLQSZO|Kind=1|AlternatePart=
-Variation54=Designator=R262|UniqueId=\HFXIRERH\YHUVLHMV|Kind=1|AlternatePart=
-Variation55=Designator=R261|UniqueId=\HFXIRERH\XQCAEUOP|Kind=1|AlternatePart=
-Variation56=Designator=R245|UniqueId=\RTXBABPE\TSIXEXUK|Kind=1|AlternatePart=
-Variation57=Designator=R246|UniqueId=\RTXBABPE\ZABDJWLM|Kind=1|AlternatePart=
-Variation58=Designator=R126|UniqueId=\NULHDFKJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\OneDrive\CernLib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R0805_0R_JUMPER|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RESC2012X60N|AltLibLink_IsSameFootprint=True
+Variation47=Designator=J10|UniqueId=\TAKSADSN\ICIHXVKV|Kind=1|AlternatePart=
+Variation48=Designator=R257|UniqueId=\HFXIRERH\TZTVHGRT|Kind=1|AlternatePart=
+Variation49=Designator=R260|UniqueId=\HFXIRERH\AXYLQSZO|Kind=1|AlternatePart=
+Variation50=Designator=R262|UniqueId=\HFXIRERH\YHUVLHMV|Kind=1|AlternatePart=
+Variation51=Designator=R261|UniqueId=\HFXIRERH\XQCAEUOP|Kind=1|AlternatePart=
+Variation52=Designator=R126|UniqueId=\NULHDFKJ|Kind=2|AlternatePart==Value|AltLibLink_LibIdentifierKind=Library Full Path|AltLibLink_LibraryIdentifier=D:\OneDrive\CernLib\Resistors.DbLib/Resistors SMD|AltLibLink_SymbolReference=|AltLibLink_DesignItemID=R0805_0R_JUMPER|AltLibLink_UseLibraryName=True|AltLibLink_SourceLibraryName=Resistors.DbLib|AltLibLink_UseDBTableName=True|AltLibLink_DatabaseTableName=Resistors SMD|AltLibLink_VaultGUID=|AltLibLink_ItemGUID=|AltLibLink_RevisionGUID=|AltLibLink_Footprint=RESC2012X60N|AltLibLink_IsSameFootprint=True
 ParamVariation3=ParameterName=Comment|VariantValue==Value
 ParamDesignator3=R126
 ParamVariation4=ParameterName=Case|VariantValue=0805
@@ -316,10 +310,10 @@ ParamVariation32=ParameterName=Status|VariantValue=Preferred
 ParamDesignator32=R126
 ParamVariation33=ParameterName=Value|VariantValue=0
 ParamDesignator33=R126
-Variation59=Designator=R144|UniqueId=\HFXIRERH\RZUPVVWH|Kind=1|AlternatePart=
-Variation60=Designator=R143|UniqueId=\HFXIRERH\HDZLKLJA|Kind=1|AlternatePart=
-Variation61=Designator=R3|UniqueId=\HFXIRERH\FGDODYED|Kind=1|AlternatePart=
-Variation62=Designator=R77|UniqueId=\HFXIRERH\WNWNQHOA|Kind=1|AlternatePart=
+Variation53=Designator=R144|UniqueId=\HFXIRERH\RZUPVVWH|Kind=1|AlternatePart=
+Variation54=Designator=R143|UniqueId=\HFXIRERH\HDZLKLJA|Kind=1|AlternatePart=
+Variation55=Designator=R3|UniqueId=\HFXIRERH\FGDODYED|Kind=1|AlternatePart=
+Variation56=Designator=R77|UniqueId=\HFXIRERH\WNWNQHOA|Kind=1|AlternatePart=
 ParamVariationCount=33
 
 [ProjectVariant2]
@@ -327,7 +321,7 @@ UniqueId=9B67D6B0-16CF-46F1-A082-28F39AAF0D0C
 Description=DIOT
 AllowFabrication=0
 ParameterCount=0
-VariationCount=14
+VariationCount=13
 Variation1=Designator=R156|UniqueId=\HFXIRERH\HJFKCOUH|Kind=0|AlternatePart==Value
 ParamVariation1=ParameterName=Comment|VariantValue==Value
 ParamDesignator1=R156
@@ -344,8 +338,7 @@ Variation9=Designator=C264|UniqueId=\TAKSADSN\RONBTLEA|Kind=1|AlternatePart=
 Variation10=Designator=FL1|UniqueId=\TAKSADSN\MWAXHPGD|Kind=1|AlternatePart=
 Variation11=Designator=C262|UniqueId=\TAKSADSN\OMMAVJMC|Kind=1|AlternatePart=
 Variation12=Designator=C263|UniqueId=\TAKSADSN\QHVMVQFF|Kind=1|AlternatePart=
-Variation13=Designator=IC43|UniqueId=\HFXIRERH\WWRKUDSI|Kind=1|AlternatePart=
-Variation14=Designator=C307|UniqueId=\HFXIRERH\XLTRLVXN|Kind=1|AlternatePart=
+Variation13=Designator=C307|UniqueId=\HFXIRERH\XLTRLVXN|Kind=1|AlternatePart=
 ParamVariationCount=2
 
 [Parameter1]
