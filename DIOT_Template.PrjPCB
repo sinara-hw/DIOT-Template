@@ -701,32 +701,32 @@ Variation4=Designator=T_R10|UniqueId=\ZWTMYJKN\CADGPDDB|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=P_copyright_owner
-Value=WUT ISE 2024-2025 · Technosystem 2025-2026
+Name=P_version
+Value=1.4
 
 [Parameter2]
-Name=P_github_link
-Value=https://github.com/sinara-hw/DIOT-Template
+Name=P_template_version
+Value=1.4
 
 [Parameter3]
-Name=P_release_designers
-Value=Maciej Przybysz (TS), Marta Fąfara (TS)
+Name=P_release_reviewers
+Value=Marcin Kiepiela (TS), Marta Fąfara (TS)
 
 [Parameter4]
 Name=P_release_owner
 Value=Maciej Przybysz (Technosystem)
 
 [Parameter5]
-Name=P_release_reviewers
-Value=Marcin Kiepiela (TS)
+Name=P_release_designers
+Value=Maciej Przybysz (TS)
 
 [Parameter6]
-Name=P_template_version
-Value=1.3
+Name=P_github_link
+Value=https://github.com/sinara-hw/DIOT-Template
 
 [Parameter7]
-Name=P_version
-Value=1.3
+Name=P_copyright_owner
+Value=WUT ISE 2024-2025 · Technosystem 2025-2026
 
 [Configuration1]
 Name=Sources
