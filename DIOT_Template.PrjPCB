@@ -582,7 +582,7 @@ UniqueId=A2FB463C-E379-4070-9A11-B2A9E4752451
 Description=EEM
 AllowFabrication=0
 ParameterCount=0
-VariationCount=41
+VariationCount=42
 Variation1=Designator=T_IC3|UniqueId=\HFXIRERH\RTXDXYRA|Kind=1|AlternatePart=
 Variation2=Designator=T_IC5|UniqueId=\HFXIRERH\FDGWJAFK|Kind=1|AlternatePart=
 Variation3=Designator=T_J4|UniqueId=\RTXBABPE\LIDFICHD|Kind=1|AlternatePart=
@@ -686,6 +686,7 @@ ParamVariation30=ParameterName=Status|VariantValue=Preferred
 ParamDesignator30=T_R26
 ParamVariation31=ParameterName=Value|VariantValue=0
 ParamDesignator31=T_R26
+Variation42=Designator=T_R4|UniqueId=\TAKSADSN\YBTSIGKV|Kind=1|AlternatePart=
 ParamVariationCount=31
 
 [ProjectVariant2]
@@ -701,32 +702,32 @@ Variation4=Designator=T_R10|UniqueId=\ZWTMYJKN\CADGPDDB|Kind=1|AlternatePart=
 ParamVariationCount=0
 
 [Parameter1]
-Name=P_version
-Value=1.4
+Name=P_copyright_owner
+Value=WUT ISE 2024-2025 · Technosystem 2025-2026
 
 [Parameter2]
-Name=P_template_version
-Value=1.4
+Name=P_github_link
+Value=https://github.com/sinara-hw/DIOT-Template
 
 [Parameter3]
-Name=P_release_reviewers
-Value=Marcin Kiepiela (TS), Marta Fąfara (TS)
+Name=P_release_designers
+Value=Maciej Przybysz (TS)
 
 [Parameter4]
 Name=P_release_owner
 Value=Maciej Przybysz (Technosystem)
 
 [Parameter5]
-Name=P_release_designers
-Value=Maciej Przybysz (TS)
+Name=P_release_reviewers
+Value=Marcin Kiepiela (TS), Marta Fąfara (TS)
 
 [Parameter6]
-Name=P_github_link
-Value=https://github.com/sinara-hw/DIOT-Template
+Name=P_template_version
+Value=1.4
 
 [Parameter7]
-Name=P_copyright_owner
-Value=WUT ISE 2024-2025 · Technosystem 2025-2026
+Name=P_version
+Value=1.4
 
 [Configuration1]
 Name=Sources
@@ -1727,6 +1728,8 @@ Type162=1
 Type163=1
 Type164=1
 Type165=2
+Type166=2
+Type167=2
 
 [ERC Connection Matrix]
 L1=NNNNNNNNNNNWNNNNW
@@ -1870,17 +1873,11 @@ UpdateVariants=1
 UpdateToLatestRevision=1
 PartTypes=0
 ComponentLibIdentifierKind0=Library Name And Type
-ComponentLibraryIdentifier0=ICs And Semiconductors.DbLib/Logic
-ComponentDesignItemID0=S25FL128SAGMFIR01
-ComponentSymbolReference0=S25FL128SAGMFIR01
-ComponentUpdate0=0
+ComponentLibraryIdentifier0=Resistors.DbLib/Resistors SMD
+ComponentDesignItemID0=R0402_0R_JUMPER
+ComponentSymbolReference0=Resistor
+ComponentUpdate0=1
 ComponentIsDeviceSheet0=0
-ComponentLibIdentifierKind1=Library Name And Type
-ComponentLibraryIdentifier1=Integrated_Library_LOADER.IntLib
-ComponentDesignItemID1=NCP51200MNTXG
-ComponentSymbolReference1=NCP51200MNTXG
-ComponentUpdate1=1
-ComponentIsDeviceSheet1=0
 FullReplace=1
 UpdateDesignatorLock=1
 UpdatePartIDLock=1
@@ -1894,80 +1891,63 @@ RemoveParameters=0
 AddModels=1
 RemoveModels=1
 UpdateCurrentModels=1
-ParameterName0=Arrow Part Number
+ParameterName0=Author
 ParameterUpdate0=1
-ParameterName1=Arrow Price/Stock
+ParameterName1=Case
 ParameterUpdate1=1
-ParameterName2=Author
+ParameterName2=Comment
 ParameterUpdate2=1
-ParameterName3=Bonding
+ParameterName3=Component Kind
 ParameterUpdate3=1
-ParameterName4=Case
+ParameterName4=Component Type
 ParameterUpdate4=1
-ParameterName5=Comment
+ParameterName5=CreateDate
 ParameterUpdate5=1
-ParameterName6=Component Kind
+ParameterName6=Description
 ParameterUpdate6=1
-ParameterName7=Component Type
+ParameterName7=Footprint
 ParameterUpdate7=1
-ParameterName8=ComponentHeight
+ParameterName8=HelpURL
 ParameterUpdate8=1
-ParameterName9=CreateDate
+ParameterName9=LatestRevisionDate
 ParameterUpdate9=1
-ParameterName10=Datasheet Link
+ParameterName10=Library Reference
 ParameterUpdate10=1
-ParameterName11=Description
+ParameterName11=Manufacturer
 ParameterUpdate11=1
-ParameterName12=Device
+ParameterName12=Manufacturer Part Number
 ParameterUpdate12=1
-ParameterName13=Footprint
+ParameterName13=Manufacturer1 ComponentHeight
 ParameterUpdate13=1
-ParameterName14=Height
+ParameterName14=Manufacturer1 Example
 ParameterUpdate14=1
-ParameterName15=HelpURL
+ParameterName15=Manufacturer1 Part Number
 ParameterUpdate15=1
-ParameterName16=LatestRevisionDate
+ParameterName16=Mounted
 ParameterUpdate16=1
-ParameterName17=Library Reference
+ParameterName17=Part Description
 ParameterUpdate17=1
-ParameterName18=Manufacturer
+ParameterName18=Part Number
 ParameterUpdate18=1
-ParameterName19=Manufacturer Part Number
+ParameterName19=Pin Count
 ParameterUpdate19=1
-ParameterName20=Manufacturer_Name
+ParameterName20=PressFit
 ParameterUpdate20=1
-ParameterName21=Manufacturer_Part_Number
+ParameterName21=Sense
 ParameterUpdate21=1
-ParameterName22=Mounted
+ParameterName22=SMD
 ParameterUpdate22=1
-ParameterName23=Mouser Part Number
+ParameterName23=Socket
 ParameterUpdate23=1
-ParameterName24=Mouser Price/Stock
+ParameterName24=Status
 ParameterUpdate24=1
-ParameterName25=PackageDescription
+ParameterName25=Value
 ParameterUpdate25=1
-ParameterName26=Part Description
-ParameterUpdate26=1
-ParameterName27=Part Number
-ParameterUpdate27=1
-ParameterName28=Pin Count
-ParameterUpdate28=1
-ParameterName29=PressFit
-ParameterUpdate29=1
-ParameterName30=Sense
-ParameterUpdate30=1
-ParameterName31=SMD
-ParameterUpdate31=1
-ParameterName32=Socket
-ParameterUpdate32=1
 ModelTypeGroup0=PCBLIB
 ModelTypeUpdate0=1
 ModelType0=PCBLIB
-ModelName0=SOIC127P1030X265-16N
+ModelName0=RESC1005X40N
 ModelUpdate0=1
-ModelType1=PCBLIB
-ModelName1=SON50P300X300X100-11N
-ModelUpdate1=1
 
 [DatabaseUpdateOptions]
 SelectedOnly=0
